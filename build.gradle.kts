@@ -1,6 +1,4 @@
-buildTypes {
-    release {
-        isMinifyEnabled = false
-        signingConfig = signingConfigs.getByName("debug") // <--- இதை இங்க கொண்டு வாங்க
-    }
+plugins {
+    id("com.android.application") version "8.5.2" apply false
+    id("org.jetbrains.kotlin.android") version "1.9.24" apply false
 }
